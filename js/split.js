@@ -1,7 +1,5 @@
-let email = "aganji367@gmail.com";
-let emailSplit = email.split("@");
-let stringOfEmailSplited = emailSplit.toString();
-let emailSplit2 = stringOfEmailSplited.split(".");
-let string = emailSplit2.toString();
+const email = "aganji367@gmail.com";
+let username = email.substring(0, email.indexOf("@"));
+let domain = collection[1].split(".")[0];
 
-console.log(string);
+console.log(email);
